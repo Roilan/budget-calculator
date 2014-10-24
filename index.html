@@ -22,15 +22,48 @@
 
 <body>
   <header>
-    
+    <h2>Budget Calculator</h2>
   </header> <!-- End Header -->
 
   <main>
+    <section class="income">
+      <h4>Income</h4>
+      <ul>
+        <li>
+          <label for="checkInput">Checking:</label>
+          <input id="checkInput" type="number" />
+        </li>
+        
+        <li>
+          <label for="savInput">Saving:</label>
+          <input id="savInput" type="number" />
+        </li>
+      </ul>
+    </section>
     
+    <section class="exp">
+      <h4>Expenses</h4>
+      <ul>
+        <li>
+          <label for="gasInput">Gas:</label>
+          <input id="gasInput" type="number" />
+        </li>
+        <li>
+          <label for="rentInput">Rent:</label>
+          <input id="rentInput" type="number" />
+        </li>
+        <li>
+          <label for="foodInput">Food:</label>
+          <input id="foodinPut" type="number" />
+        </li>
+      </ul>
+    </section>
+
+    <p>Your budget is: <span>0</span></p>
   </main> <!-- End Main -->
   
   <footer>
-    
+    <button>Budget</button>
   </footer> <!-- End Footer -->
 
   <script src="assets/js/main.min.js"></script>
